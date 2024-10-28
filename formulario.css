@@ -1,0 +1,76 @@
+body {
+    background-color:thistle
+}
+.entrada_formulario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    border-color: black;
+    border-radius: 100px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    padding: 30px;
+    align-items: center;
+    
+}
+.entrada_email{
+    padding: 10px;
+}
+.entrada_email input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 400px;
+    
+}
+.entrada_tel {
+    padding: 10px;
+}
+.entrada_tel input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 400px;
+}
+.entrada_nombre {
+    padding: 10px;
+}
+.entrada_nombre input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 400px;
+}
+.entrada_apellidos {
+    padding: 10px;
+}
+.entrada_apellidos input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 400px;
+}
+.entrada_nacimiento {
+    padding: 10px;
+
+}
+.entrada_nacimiento input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 400px;
+}
+.entrada_enviar button {
+    background-color:silver;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 100px;
+    
+}
+.entrada_enviar button:hover {
+    background-color: gray;
+}
