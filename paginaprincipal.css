@@ -1,0 +1,32 @@
+body {
+    background-color:seashell;
+}
+.titulo {
+   border-radius: 100px;
+    margin: auto;
+    border-color: solid black;
+    width: 1000px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+   background-image: url(madrid3.jpg);
+   background-size: 400px;
+}
+.titulo h1 {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 70px;
+color:burlywood;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: aliceblue;
+}
+
+@keyframes animacion {
+    0% {transform: translate(0, 0)}
+    25% {transform: translate(100px,0)}
+    50% {transform: translate(0, 0)}
+    75% {transform: translate(-100px, 0)}
+    100% {transform: translate(0, 0)}
+}
+.titulo {
+    animation: animacion 10s infinite;
+}
