@@ -1,0 +1,9 @@
+body {
+    background-color: seashell;
+}
+.imagenplazamayor {
+    margin: auto;
+}
+
+.imagenplazamayor:hover {filter: saturate(180%);
+}
